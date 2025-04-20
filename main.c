@@ -77,7 +77,6 @@ int getline(char arr[], int maxlen) {
 int getword(char inputArr[], char wordArr[][MAXWORDL]){  
     int k = 0;
     int i = 0;
-    int s = 0;
     int j = 0;
     while(inputArr[i] != '\0' && i < MAX)
     {
